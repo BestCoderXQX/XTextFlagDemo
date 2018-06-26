@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小茗同学   男 "
+            android:textColor="#333"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            />
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="40dp"
+            app:xFlagMode="right"
+            app:xTextContent="已过"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccc"></View>
+</LinearLayout>
