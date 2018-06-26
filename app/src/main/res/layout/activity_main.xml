@@ -19,7 +19,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="left"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签A"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -31,7 +31,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="right"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签B"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -42,7 +42,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="left_bottom"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签C"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -53,7 +53,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="right_bottom"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签D"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -64,7 +64,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="left_triangle"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签E"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -75,7 +75,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="right_triangle"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签F"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -86,7 +86,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="left_bottom_triangle"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签G"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
@@ -97,7 +97,7 @@
             app:xBackgroundColor="#f00"
             app:xFlagLength="30dp"
             app:xFlagMode="right_bottom_triangle"
-            app:xTextContent="IOS/nAndroid"
+            app:xTextContent="标签H"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
