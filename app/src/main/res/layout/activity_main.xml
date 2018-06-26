@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xqx.com.xtextflagdemo.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="40dp"
+            app:xFlagMode="left"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+
+
+    </RelativeLayout>
+</RelativeLayout>
