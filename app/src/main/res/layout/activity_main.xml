@@ -1,26 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="horizontal"
     tools:context="xqx.com.xtextflagdemo.MainActivity">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         >
         <xqx.com.xtextflag.XTextViewFlag
-            android:layout_width="80dp"
-            android:layout_height="match_parent"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:gravity="center"
             app:xBackgroundColor="#f00"
-            app:xFlagLength="40dp"
+            app:xFlagLength="30dp"
             app:xFlagMode="left"
             app:xTextContent="IOS/nAndroid"
             app:xTextColor="#0f0"
             app:xTextSize="16sp"
             ></xqx.com.xtextflag.XTextViewFlag>
 
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="right"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="left_bottom"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="right_bottom"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="left_triangle"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="right_triangle"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="left_bottom_triangle"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+        <xqx.com.xtextflag.XTextViewFlag
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            app:xBackgroundColor="#f00"
+            app:xFlagLength="30dp"
+            app:xFlagMode="right_bottom_triangle"
+            app:xTextContent="IOS/nAndroid"
+            app:xTextColor="#0f0"
+            app:xTextSize="16sp"
+            ></xqx.com.xtextflag.XTextViewFlag>
+    </LinearLayout>
 
-    </RelativeLayout>
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:left"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:right"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:left_bottom"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:right_bottom"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:left_triangle"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:right_triangle"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:left_bottom_triangle"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="xFlagMode:right_bottom_triangle"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+</LinearLayout>
