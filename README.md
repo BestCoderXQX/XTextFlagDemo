@@ -3,7 +3,7 @@
 
 -----------------------------------------------
  <img width="300" height="550" src="https://github.com/BestCoderXQX/XTextFlagDemo/raw/master/screenshots/aaa.png"/>
- <img width="300" height="550" src="https://github.com/BestCoderXQX/XTextFlagDemo/raw/master/screenshots/bbb.png"/>
+ <img width="300" height="550" src="https://github.com/BestCoderXQX/XTextFlagDemo/raw/master/screenshots/ccc.png"/>
 
 ##
 支持：
